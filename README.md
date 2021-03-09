@@ -20,6 +20,12 @@
 - CRUD operations for User, Product and Category entities.
 
 ## Installation
+You can import tables and sample data to the postgresql using the ecommerce_db.sql file.
+
+```sh
+psql -U postgres --file ecommerce_db.sql
+```
+
 Maven and PostgreSQL server needed.
 You can make database and log detailing over the application.properties file.
 ```sh
