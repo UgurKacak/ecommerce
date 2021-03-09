@@ -28,6 +28,9 @@ git clone https://github.com/UgurKacak/ecommerce.git
 mvn install package
 mvn spring-boot:run
 ```
+Api: http://localhost:8080/
+Swagger Ui : http://localhost:8080/swagger-ui/index.html#/
+ECommerceAPI.postman_collection.json Postman collection can be used with Postman.
 ## To-do
 - Complete Unit Test
 - Complete Integration Test
